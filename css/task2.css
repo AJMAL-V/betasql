@@ -126,3 +126,11 @@ th {
     overflow-x: auto;
   }
 }
+.flex {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  margin-right: 15px;
+  height: 30px;
+}
