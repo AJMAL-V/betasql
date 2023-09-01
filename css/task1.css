@@ -1,0 +1,79 @@
+/* form css */
+.form-container {
+  margin-top: 15px;
+}
+.red-text {
+  color: red;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+input,
+input:focus,
+input:active,
+input:focus-visible {
+  border: 2px solid #ccc;
+  outline: none;
+  padding: 5px;
+  height: 25px;
+  color: #555;
+  width: 80%;
+}
+input:focus,
+input:active,
+input:focus-visible {
+  border-color: #a259ff;
+}
+select {
+  border: 2px solid #ccc;
+  outline: none;
+  height: 39px;
+  width: 82%;
+  color: #555;
+}
+.input-container {
+  width: 50%;
+  float: left;
+}
+.row-container {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: auto;
+}
+.wrapper {
+  /* display: inline !important; */
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 0;
+  float: left;
+  width: 15%;
+  height: 35px;
+  color: #555;
+}
+.check-wrapper {
+  width: auto;
+  margin-right: 5px;
+  color: #555;
+}
+input[type="submit"],
+input[type="reset"] {
+  width: auto;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  height: auto;
+}
+input[type="submit"] {
+  background-color: #3cb929;
+}
+input[type="reset"] {
+  background-color: #ff7262;
+}
+.right {
+  text-align: right;
+  padding-right: 20%;
+}
