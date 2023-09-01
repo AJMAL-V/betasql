@@ -130,7 +130,13 @@ th {
   display: flex;
   align-items: center;
 }
-nav img {
+nav img,
+nav i {
   margin-right: 15px;
   height: 30px;
+}
+nav i {
+  margin-right: 25px;
+  vertical-align: middle;
+  line-height: 28px !important;
 }
